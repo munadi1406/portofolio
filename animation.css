@@ -1,0 +1,51 @@
+.about-img {
+    opacity: 0; /*bukan posisi*/
+    right: 1rem;
+}
+.aktif-about-img{ /*animasi*/
+    opacity: 1;
+    right: 0px;
+}
+.about-data {
+    opacity: 0;
+    position: relative;
+    left: 1rem;
+    transition: all 1s ease-in-out;
+}
+.aktif-about-data{
+    opacity: 1;
+    left: 0;
+}
+.container-button{
+    transition: all 1s ease-in-out;
+    /* transition-delay: 0.5s; */
+    top: 1rem;
+    position: relative;
+    opacity: 0;
+}
+.aktif-container-button{
+    top: 0;
+    opacity: 1;
+}
+.container-item{
+    top: 10px;
+    position: relative;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+    transform: rotate(180deg);
+}
+.container-item-aktif{
+    top: 0;
+    opacity: 1;
+    transform: rotate(0);
+    /* transform: scaleY(1); */
+}
+.link-contact{
+    opacity: 0;
+    transition: all 0.5s ease-in;
+    transform: scaleX(0);
+}
+.link-contact-aktif{
+    opacity: 1;
+    transform: scaleX(1);
+}
