@@ -34,7 +34,7 @@ function github() {
   );
   link.focus();
 }
-
+const listLink = document.querySelectorAll('.link');
 //  Pure Javascript
 // animasi untuk bagian about
 window.addEventListener("scroll", () => {
@@ -123,3 +123,8 @@ window.addEventListener("scroll", () => {
   }
 });
 // penutup bagian contact
+
+
+
+
+
